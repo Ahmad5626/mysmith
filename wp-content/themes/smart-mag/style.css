@@ -10598,7 +10598,8 @@ body.elementor-default {
 .elementor-inner-section.elementor-section-boxed > div.elementor-container {
   width: 100%;
   max-width: initial;
-  flex-grow: 1;
+  /* flex-grow: 1; */
+  flex-wrap: wrap !important;
 }
 
 .ts-contain .elementor-section-boxed > div.elementor-container {
